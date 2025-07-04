@@ -1,3 +1,10 @@
-criar evento "Projeto compiladores" 04-07-2025 08:50 04-07-2025 10:30
+repetir evento 4 { criar evento "Projeto compiladores" 04-07-2025 08:50 04-07-2025 10:30 }
+
+consultar evento "Final compiladores"
 
 deletar evento 04-07-2025
+
+criar evento "Correcao de Compiladores" 08-07-2025 13:00 08-07-2025 15:00
+
+consultar evento "Correcao de Compiladores"
+

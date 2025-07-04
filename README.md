@@ -13,12 +13,12 @@ Ele trabalha om a logica de construção de compiladores pra criar comandos que 
 - Vinícius Ribeiro
 
 ### O que faz?
-Permite fazer...
+Permite fazer *com facilidade* operações do [Google Calendar](https://calendar.google.com/calendar/u/0/r) (criar, consultar, deletar, repetir eventos) usando comandos escritos em _linguagem natural, estruturada e em potugues_.
 
 ### qual o Intuito
-Que um usuário possa...
+Que um usuário possa fazer suas devidas organizações, de forma _automatizada_ tarefas que podem ser _chatas e repetitivas_.
 
-> foco: facilitar
+> foco: facilidade, automação, podutividade
 
 # Como ultilizar?
 Siga o flow abaixo, para ultiliza-lo direto do codespaces!
@@ -33,7 +33,10 @@ Siga o flow abaixo, para ultiliza-lo direto do codespaces!
 
     - `cd src`, para navegar a pasta
 <!--2. descopacte o `token.zip` ou coloque um `token.json` da sua conta -->
-2. considere colocar um `token.json` de outra conta ou entre na nossa: ...
+2. considere colocar um `token.json` de outra conta ou entre na nossa conta de teste:
+    conta gmail: `testecompiladores01@gmail.com`
+    senha: `v9@Lx#T8bW3!dPz2`
+    link do console [Google Cloud](console.cloud.google.com/iam-admin/serviceaccounts) (onde está nosso token)
 3. coloque os seus comandos no `input.txt`
     COMANDOS DISPONIVEIS:
     - `criar evento "NOME" DD-MM-AAAA HH:MM DD-MM-AAAA HH:MM` que cria evento
@@ -47,11 +50,54 @@ Siga o flow abaixo, para ultiliza-lo direto do codespaces!
     - `deletar evento DD-MM-AAAA` que deleta o evento do dia
     <br>ex: deletar evento 04-07-2025
     <br>
+    - `deletar evento "NOME"` que deleta o evento pelo nome
+    <br>ex: deletar evento "Prova Final de Compiladores XD"
+    <br>
+    - `consultar evento "NOME"` para consultar o evento, pelo nome
+    <br>ex: consultar evento "Correção do 2EE de Compiladores"
+    <br>
+    - *Procedimento de repetição*:
+    <br>
+    ```
+    repetir evento N {
+        COMANDOS
+    }
+    ```
+    para poder fazer ações repetitivas
+    <br>ex:
+    ```
+    repetir evento 3 {
+        criar evento "Matrícula Assistida" 01-08-2025 14:00 01-08-2025 15:00
+    }
+    ```
 
-3. inicie o script no formato `python main.py input.txt`...
+
+3. inicie o script no formato `python main.py input.txt`.
 <!--4. ultilize o comando `tal` para...-->
-4. abra o [Google Calendar]() e confira!<!--TODO: POR O LINK-->
+4. abra o [Google Calendar](https://calendar.google.com/calendar/u/0/r) e confira! (o gerador irá exibir o link dirto no prompt)<!--TODO: POR O LINK-->
 
 <!--ver o que luis pediu pra ser feito-->
 
+---
+# Exemplo de funcionamento
+Segue fluxo:
+
+![Input](image1.png)
+> Evento adicionado ao input
+<br>
+---
+
+![Comando](image2.png)
+>Comando Executado
+<br>
+---
+
+![output](image3.png)
+>Resposta do gerador
+<br>
+---
+
+![Sucesso](image4.png)
+>Evento criado com sucesso!!
+<br>
 ---

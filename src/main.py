@@ -6,6 +6,7 @@ import datetime
 from google.oauth2 import service_account
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
+import time
 
     # Caminho para o JSON com a KEY
 SERVICE_ACCOUNT_FILE = "token.json"  
@@ -62,7 +63,6 @@ def avalie(com, service, calendar_id):
 
             elif com.DELETAR():
                 try:
-                    print("--- Comando 'deletar' encontrado ---")
 
                     if com.NOME():
                         nome = com.children[2].getText().strip('"')
@@ -89,10 +89,7 @@ def avalie(com, service, calendar_id):
                     
                     elif com.DATA():
                         data = com.children[2].getText().split('-')
-                        print(f"Data recebida: {data}")
                         dia = data[0]
-                        for c in data:
-                            print(c)
                         mes = data[1]
                         ano = data[2]
 
@@ -131,9 +128,48 @@ def avalie(com, service, calendar_id):
                 except Exception as e:
                     print(f"Ocorreu um erro inesperado: {e}")
             
+            elif com.REPETIR():
+                for i in range(0,int(com.children[2].getText())):
+                    print(i+1, "ª repetição do comando:")
+                    for com in com.com():
+                        avalie(com, service, calendar_id)
+                        time.sleep(0.5)
+                        
+            elif com.CONSULTAR():
+                try:
+                    nome = com.children[2].getText().strip('"')
+                    print(f"Consultando eventos com o nome: {nome}")
+
+                    events_result = service.events().list(
+                        calendarId=calendar_id,
+                        q=nome,
+                        singleEvents=True,
+                        orderBy='startTime',
+                        timeMin=datetime.datetime.utcnow().isoformat() + 'Z'
+                    ).execute()
+                    events = events_result.get('items', [])
+
+                    if not events:
+                        print(f"Nenhum evento encontrado com o nome '{nome}'.")
+                        return
+
+                    print(f"Encontrados {len(events)} evento(s) com o nome '{nome}':")
+                    for event_item in events:
+                        start = event_item['start'].get('dateTime', event_item['start'].get('date'))
+                        end = event_item['end'].get('dateTime', event_item['end'].get('date'))
+                        print(f"  Evento: '{event_item['summary']}' de {start} até {end} (ID: {event_item['id']})")
+
+                except HttpError as err:
+                    print(f"Erro na API do Google Calendar: {err}")
+                    print(f"Detalhes do erro: {err.content.decode()}")
+                except Exception as e:
+                    print(f"Ocorreu um erro inesperado: {e}")
+                
+            
    
 #Main
-input_stream = FileStream(sys.argv[1])
+#input_stream = FileStream(sys.argv[1])
+input_stream = FileStream(sys.argv[1], encoding='utf-8')  # Adicionando o encoding
 lexer = CompiladorLexer(input_stream)
 stream = CommonTokenStream(lexer)
 parser = CompiladorParser(stream)
