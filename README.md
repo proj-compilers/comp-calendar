@@ -37,8 +37,8 @@ Siga o flow abaixo, para ultiliza-lo direto do codespaces!
 3. coloque os seus comandos no `input.txt`
     COMANDOS DISPONIVEIS:
     - `criar evento "NOME" DD-MM-AAAA HH:MM DD-MM-AAAA HH:MM` que cria evento
-        ex: `criar evento "Projeto compiladores" 04-07-2025 08:50 04-07-2025 10:30`
-        onde:
+        <br>ex: `criar evento "Projeto compiladores" 04-07-2025 08:50 04-07-2025 10:30`
+        <br>onde:
         - `"NOME"` é o nome do seu evento
         - `DD-MM-AAAA HH:MM` é o formato de dia e hora do seu evento
             > note que no comando você tem que coloar o dia/hora do inicio e o dia/hora do fim do evento
