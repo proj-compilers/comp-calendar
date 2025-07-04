@@ -1,0 +1,13 @@
+CRIAR=1
+DELETAR=2
+EVENTO=3
+HORA=4
+DATA=5
+DIA=6
+MES=7
+ANO=8
+NOME=9
+BRANCO=10
+'criar'=1
+'deletar'=2
+'evento'=3
