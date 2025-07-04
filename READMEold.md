@@ -7,10 +7,10 @@ Ele trabalha om a logica de construção de compiladores pra criar comandos que 
 
 # Compilador para comandos ao Google Calendar API
 ## Alunos
-Claudio Roberto
-Ruan de Melo
-Sócrates Farias
-Vinícius Ribeiro
+- Claudio Roberto
+- Ruan de Melo
+- Sócrates Farias
+- Vinícius Ribeiro
 
 ### O que faz?
 Permite fazer...
