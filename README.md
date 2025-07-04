@@ -45,6 +45,7 @@ Siga o flow abaixo, para ultiliza-lo direto do codespaces!
         <br>
 
     - `deletar evento DD-MM-AAAA` que deleta o evento do dia
+    <br>ex: deletar evento 04-07-2025
     <br>
 
 3. inicie o script no formato `python main.py input.txt`...
