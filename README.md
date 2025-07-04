@@ -20,7 +20,7 @@ Que um usuário possa...
 
 > foco: facilitar
 
-### Como ultilizar?
+# Como ultilizar?
 Siga o flow abaixo, para ultiliza-lo direto do codespaces!
 
 1. abra o terminal do codespaces e use:
