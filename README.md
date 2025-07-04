@@ -32,7 +32,8 @@ Siga o flow abaixo, para ultiliza-lo direto do codespaces!
       para instalar as dependencias 
 
     - `cd src`, para navegar a pasta
-2. descopacte o `token.zip` ou coloque um `token.json` da sua conta
+<!--2. descopacte o `token.zip` ou coloque um `token.json` da sua conta -->
+2. considere colocar um `token.json` de outra conta ou entre na nossa: ...
 3. inicie o ...
 4. ultilize o comando `tal` para...
 
