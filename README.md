@@ -37,8 +37,9 @@ Siga o flow abaixo, para ultiliza-lo direto do codespaces!
     - conta gmail: `testecompiladores01@gmail.com`
     - senha: `v9@Lx#T8bW3!dPz2`
     - link do console [Google Cloud](console.cloud.google.com/iam-admin/serviceaccounts) (onde está nosso token)
-    - selecione o projeto: ![projeto](image6.png)
-    - clique em nas reticências de actions -> Manage keys ![chave](image.png)
+    - selecione o projeto: <br> <!--![projeto](image6.png)--> <img src="image6.png" alt="projeto" width="40%">
+
+    - clique em nas reticências de actions -> Manage keys <br> <!-- ![chave](image.png) --> <img src="image.png" alt="chave" width="40%">
     - por fim, em "add key", selecione `.json`, baixe o arquivo e substitua na pasta do projeto
 3. coloque os seus comandos no `input.txt`
     COMANDOS DISPONIVEIS:
