@@ -52,13 +52,10 @@ Siga o flow abaixo, para ultiliza-lo direto do codespaces!
         <br>
     - `deletar evento DD-MM-AAAA` que deleta o evento do dia
     <br>ex: deletar evento 04-07-2025
-    <br>
     - `deletar evento "NOME"` que deleta o evento pelo nome
     <br>ex: deletar evento "Prova Final de Compiladores XD"
-    <br>
     - `consultar evento "NOME"` para consultar o evento, pelo nome
     <br>ex: consultar evento "Correção do 2EE de Compiladores"
-    <br>
     - *Procedimento de repetição*:
     <br>
     ```
