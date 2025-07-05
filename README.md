@@ -34,9 +34,12 @@ Siga o flow abaixo, para ultiliza-lo direto do codespaces!
     - `cd src`, para navegar a pasta
 <!--2. descopacte o `token.zip` ou coloque um `token.json` da sua conta -->
 2. considere colocar um `token.json` de outra conta ou entre na nossa conta de teste:
-    conta gmail: `testecompiladores01@gmail.com`
-    senha: `v9@Lx#T8bW3!dPz2`
-    link do console [Google Cloud](console.cloud.google.com/iam-admin/serviceaccounts) (onde está nosso token)
+    - conta gmail: `testecompiladores01@gmail.com`
+    - senha: `v9@Lx#T8bW3!dPz2`
+    - link do console [Google Cloud](console.cloud.google.com/iam-admin/serviceaccounts) (onde está nosso token)
+    - selecione o projeto: ![projeto](image6.png)
+    - clique em nas reticências de actions -> Manage keys ![chave](image.png)
+    - por fim, em "add key", selecione `.json`, baixe o arquivo e substitua na pasta do projeto
 3. coloque os seus comandos no `input.txt`
     COMANDOS DISPONIVEIS:
     - `criar evento "NOME" DD-MM-AAAA HH:MM DD-MM-AAAA HH:MM` que cria evento
