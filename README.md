@@ -46,7 +46,6 @@ Siga o flow abaixo, para ultiliza-lo direto do codespaces!
         - `DD-MM-AAAA HH:MM` é o formato de dia e hora do seu evento
             > note que no comando você tem que coloar o dia/hora do inicio e o dia/hora do fim do evento
         <br>
-
     - `deletar evento DD-MM-AAAA` que deleta o evento do dia
     <br>ex: deletar evento 04-07-2025
     <br>
@@ -81,7 +80,7 @@ Siga o flow abaixo, para ultiliza-lo direto do codespaces!
 # Para mais simplicidade ao testar...
 criamos um arquivo `iniciar.sh`.
 <br>
-coloque no terminal `bash iniciar.sh` e veja a mágica acontecer
+coloque no terminal `bash iniciar.sh` e veja a mágica acontecer!!!
 
 ## Caso prefira rodar localmente...
 Baixe o arquivo `.zip` do nosso [Release Final]()
@@ -112,7 +111,7 @@ Segue fluxo:
 
 ## Funcionando tbm no codespaces!
 
-
+![codespaces](image5.png)
 >funcionamento no codespaces!
 <br>
 ---
