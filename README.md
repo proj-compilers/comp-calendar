@@ -73,13 +73,14 @@ Siga o flow abaixo, para ultiliza-lo direto do codespaces!
 
 
 3. inicie o script no formato `python main.py input.txt`.
+>obs: o arquivo `input.txt` já segue com um exemplo, fique à vontade para altera-lo
 <!--4. ultilize o comando `tal` para...-->
 4. abra o [Google Calendar](https://calendar.google.com/calendar/u/0/r) e confira! (o gerador irá exibir o link dirto no prompt)<!--TODO: POR O LINK-->
 
 <!--ver o que luis pediu pra ser feito-->
 
 # Para mais simplicidade ao testar...
-criamos um arquivo `iniciar.sh`.
+criamos um arquivo `iniciar.sh` com todos os comandos necessários para rodar o compilador com uma linha de código!
 <br>
 coloque no terminal `bash iniciar.sh` e veja a mágica acontecer!!!
 
