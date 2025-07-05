@@ -39,7 +39,7 @@ Siga o flow abaixo, para ultiliza-lo direto do codespaces!
     - link do console [Google Cloud](console.cloud.google.com/iam-admin/serviceaccounts) (onde está nosso token)
     - selecione o projeto: <br> <!--![projeto](image6.png)--> <img src="image6.png" alt="projeto" width="40%">
 
-    - clique em nas reticências de actions -> Manage keys <br> <!-- ![chave](image.png) --> <img src="image.png" alt="chave" width="40%">
+    - clique em nas reticências de actions -> Manage keys <br> <!-- ![chave](image.png) --> <img src="image7.png" alt="chave" width="20%">
     - por fim, em "add key", selecione `.json`, baixe o arquivo e substitua na pasta do projeto
 3. coloque os seus comandos no `input.txt`
     COMANDOS DISPONIVEIS:
@@ -57,7 +57,6 @@ Siga o flow abaixo, para ultiliza-lo direto do codespaces!
     - `consultar evento "NOME"` para consultar o evento, pelo nome
     <br>ex: consultar evento "Correção do 2EE de Compiladores"
     - *Procedimento de repetição*:
-    <br>
     ```
     repetir evento N {
         COMANDOS
