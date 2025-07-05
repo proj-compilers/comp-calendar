@@ -78,6 +78,14 @@ Siga o flow abaixo, para ultiliza-lo direto do codespaces!
 
 <!--ver o que luis pediu pra ser feito-->
 
+# Para mais simplicidade ao testar...
+criamos um arquivo `iniciar.sh`.
+<br>
+coloque no terminal `bash iniciar.sh` e veja a mágica acontecer
+
+## Caso prefira rodar localmente...
+Baixe o arquivo `.zip` do nosso [Release Final]()
+
 ---
 # Exemplo de funcionamento
 Segue fluxo:
@@ -99,5 +107,12 @@ Segue fluxo:
 
 ![Sucesso](image4.png)
 >Evento criado com sucesso!!
+<br>
+---
+
+## Funcionando tbm no codespaces!
+
+
+>funcionamento no codespaces!
 <br>
 ---
