@@ -84,7 +84,7 @@ criamos um arquivo `iniciar.sh`.
 coloque no terminal `bash iniciar.sh` e veja a mágica acontecer!!!
 
 ## Caso prefira rodar localmente...
-Baixe o arquivo `.zip` do nosso [Release Final]()
+Baixe o arquivo `.zip` do nosso [Release Final](https://github.com/proj-compilers/comp-calendar/releases/tag/0.1.0)
 
 ---
 # Exemplo de funcionamento
