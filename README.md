@@ -42,7 +42,7 @@ Siga o flow abaixo, para ultiliza-lo direto do codespaces!
     - clique em nas reticências de actions -> Manage keys <br> <!-- ![chave](image.png) --> <img src="image7.png" alt="chave" width="20%">
     - por fim, em "add key", selecione `.json`, baixe o arquivo e substitua na pasta do projeto
 # Faça sua automação:
-3. coloque os seus comandos no `input.txt`
+3. coloque os seus comandos no `input.txt`<br><br>
     COMANDOS DISPONIVEIS:
     - `criar evento "NOME" DD-MM-AAAA HH:MM DD-MM-AAAA HH:MM` que cria evento
         <br>ex: `criar evento "Projeto compiladores" 04-07-2025 08:50 04-07-2025 10:30`
