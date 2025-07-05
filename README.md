@@ -12,10 +12,10 @@ Ele trabalha om a logica de construção de compiladores pra criar comandos que 
 - Sócrates Farias
 - Vinícius Ribeiro
 
-### O que faz?
+### Descrição: O que faz?
 Permite fazer *com facilidade* operações do [Google Calendar](https://calendar.google.com/calendar/u/0/r) (criar, consultar, deletar, repetir eventos) usando comandos escritos em _linguagem natural, estruturada e em potugues_.
 
-### qual o Intuito
+### Motivação: qual o Intuito
 Que um usuário possa fazer suas devidas organizações, de forma _automatizada_ tarefas que podem ser _chatas e repetitivas_.
 
 > foco: facilidade, automação, podutividade
